@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mount Moriah - Career Pathway</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f0f4f8; /* Light grey-blue background */
+        }
+        .elegant-title {
+            font-family: 'Lora', serif;
+        }
+        .card {
+            background-color: white;
+            border-left-width: 6px;
+            transition: all 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .icon-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            color: #4A5568; /* Gray-700 */
+        }
+        .icon-list i {
+            width: 20px;
+            margin-right: 1rem;
+            color: #2c5282; /* Indigo-800 */
+        }
+        .arrow-connector {
+            color: #a0aec0; /* Gray-400 */
+            font-size: 2rem;
+            margin: 0.5rem 0;
+        }
+        /* Color Palette */
+        .level-1 { border-color: #63b3ed; } /* Blue-400 */
+        .level-2 { border-color: #4fd1c5; } /* Teal-400 */
+        .level-3 { border-color: #68d391; } /* Green-400 */
+        .level-4 { border-color: #f6ad55; } /* Orange-400 */
+        .level-5 { border-color: #d53f8c; } /* Pink-600 */
+        .level-6 { border-color: #a0aec0; } /* Gray-400 */
+        .owner-card {
+            background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%); /* Indigo gradient */
+            color: white;
+        }
+        .owner-card .icon-list i, .owner-card .icon-list li {
+            color: white;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+
+    <div class="w-full max-w-2xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <i class="fas fa-mountain-sun text-4xl text-indigo-800 mb-2"></i>
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 elegant-title">Mount Moriah</h1>
+            <p class="text-lg text-gray-600">Your Pathway to Success</p>
+        </div>
+
+        <!-- Promotion Pathway - Arranged from top to bottom -->
+        <div class="flex flex-col items-center w-full">
+
+            <!-- Level 6: Broker/Owner -->
+            <div class="card owner-card rounded-lg p-6 w-full shadow-lg text-center">
+                <h2 class="text-2xl font-bold elegant-title mb-2">Broker / Owner</h2>
+                <p class="text-xl font-semibold text-gray-300 mb-4">Moises</p>
+                <div class="flex items-center justify-center text-lg">
+                    <i class="fas fa-crown mr-3 text-yellow-400"></i>
+                    <span>Visionary Leadership & Mentorship</span>
+                </div>
+            </div>
+            <div class="arrow-connector">
+                <i class="fas fa-long-arrow-alt-up"></i>
+            </div>
+
+            <!-- Level 5: Branch Marketing Manager -->
+            <div class="card level-5 rounded-lg p-6 w-full shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Branch Marketing Manager</h3>
+                <ul class="icon-list text-sm">
+                    <li><i class="fas fa-layer-group"></i> <strong>Group Sales:</strong> 500 Lots Sold / 50,000 sqm</li>
+                    <li><i class="fas fa-sitemap"></i> <strong>Leadership:</strong> Develop 5 Sales Marketing Managers</li>
+                    <li><i class="fas fa-hand-holding-usd"></i> <strong>Commission:</strong> Earn P5,000,000 (Total Group)</li>
+                    <li><i class="fas fa-chalkboard-teacher"></i> <strong>Tasks:</strong> Oversee branch operations, lead major business presentations.</li>
+                </ul>
+            </div>
+            <div class="arrow-connector">
+                <i class="fas fa-long-arrow-alt-up"></i>
+            </div>
+
+            <!-- Level 4: Sales Marketing Manager -->
+            <div class="card level-4 rounded-lg p-6 w-full shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Sales Marketing Manager</h3>
+                <ul class="icon-list text-sm">
+                    <li><i class="fas fa-chart-line"></i> <strong>Group Sales:</strong> 200 Lots Sold / 20,000 sqm</li>
+                    <li><i class="fas fa-users-cog"></i> <strong>Leadership:</strong> Develop 5 Unit Marketing Managers</li>
+                    <li><i class="fas fa-wallet"></i> <strong>Commission:</strong> Earn P2,000,000 (Total Group)</li>
+                    <li><i class="fas fa-briefcase"></i> <strong>Tasks:</strong> Conduct team trainings, assist in major client negotiations.</li>
+                </ul>
+            </div>
+            <div class="arrow-connector">
+                <i class="fas fa-long-arrow-alt-up"></i>
+            </div>
+
+            <!-- Level 3: Unit Marketing Manager -->
+            <div class="card level-3 rounded-lg p-6 w-full shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Unit Marketing Manager</h3>
+                <ul class="icon-list text-sm">
+                    <li><i class="fas fa-users"></i> <strong>Group Sales:</strong> 50 Lots Sold / 5,000 sqm</li>
+                    <li><i class="fas fa-user-plus"></i> <strong>Leadership:</strong> Develop 5 Recruitment Sales Agents</li>
+                    <li><i class="fas fa-money-bill-wave"></i> <strong>Commission:</strong> Earn P500,000 (Total Group)</li>
+                    <li><i class="fas fa-car"></i> <strong>Tasks:</strong> Lead a sales unit, facilitate client trippings and site visits.</li>
+                </ul>
+            </div>
+            <div class="arrow-connector">
+                <i class="fas fa-long-arrow-alt-up"></i>
+            </div>
+
+            <!-- Level 2: Recruitment Sales Agent -->
+            <div class="card level-2 rounded-lg p-6 w-full shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Recruitment Sales Agent</h3>
+                <ul class="icon-list text-sm">
+                    <li><i class="fas fa-key"></i> <strong>Personal Sales:</strong> 10 Lots Sold / 1,000 sqm</li>
+                    <li><i class="fas fa-user-friends"></i> <strong>Recruitment:</strong> 5 Active Direct Recruits</li>
+                    <li><i class="fas fa-piggy-bank"></i> <strong>Commission:</strong> Earn P100,000 (Personal)</li>
+                    <li><i class="fas fa-hands-helping"></i> <strong>Tasks:</strong> Actively recruit and assist new agents in their first sale.</li>
+                </ul>
+            </div>
+            <div class="arrow-connector">
+                <i class="fas fa-long-arrow-alt-up"></i>
+            </div>
+
+            <!-- Level 1: Sales Agent -->
+            <div class="card level-1 rounded-lg p-6 w-full shadow-md">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Sales Agent</h3>
+                <ul class="icon-list text-sm">
+                    <li><i class="fas fa-map-marked-alt"></i> <strong>Personal Sales:</strong> 5 Lots Sold / 500 sqm</li>
+                    <li><i class="fas fa-file-signature"></i> <strong>Training:</strong> Complete New Agent Orientation & Product Training</li>
+                    <li><i class="fas fa-search-location"></i> <strong>Tasks:</strong> Client prospecting, property showings, and initial documentation.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
